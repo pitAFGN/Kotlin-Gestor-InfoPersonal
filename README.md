@@ -4,8 +4,8 @@
 Cuando ejecutas el codigo te pedira ciertos datos los cuales tu llenaras, al final te dara un leve resumen de los datos ingresados
 y si todo es correcto te dara un mensaje de bienvenida a "los pollos rosas"
 
-![Captura del proyecto](img/img.png)
-
+![img.png](img/img.png)
+![img_1.png](img/img_1.png)
 
 Funcionalidades implementadas
 Solicitud de datos personales: nombre, edad, correo, altura y peso.

@@ -9,22 +9,21 @@ fun main() {
 
     var edad : Int
 
-    while (true) {
+
 
         println("Ingrese su edad: ")
         edad = (readLine() ?: "0").toInt()
 
         if (edad>=18) {
             println("Usted es mayor de edad, puede continuar con el acceso")
-            break
+
         }else {
             println("usted es menor de edad, trateme serio")
         }
-    }
+
     var altura : Double
     var peso : Double
 
-    while (true){
         println("Ingresar su altura: ")
         altura = readLine()?.toDouble() ?: 0.0
 
@@ -33,26 +32,26 @@ fun main() {
 
         if (altura >0 && peso > 0){
             println("Datos validos,puedes continuar con el acceso")
-            break
+
         }else {
             println("datos invalidos")
         }
-    }
+
     var correo : String
 
-    while (true) {
+
         println("Ingresar su Email: ")
          correo = readLine() ?: ""
 
 
         if (correo.contains("@") && correo.contains(".") ) {
             print("correo valido $correo")
-            break
+
         } else {
             println("su corre es invalido: ")
         }
 
-    }
+
     println()
     println("Ingresar tu actual Ciudad de residencia: ")
     var residencia : String = readLine() ?: ""
@@ -71,7 +70,7 @@ fun main() {
     println()
     println("Dominio usado en el email: ")
 
-    val dominio = correo.substringAfter("@")
+    val dominio : String = "gmail.com"
     println("$dominio")
 
     println()
@@ -81,7 +80,7 @@ fun main() {
     Edad: $edad
     Correo: $correo
     IMC: $imc
-    """.trimIndent()
+    """
 
     println(resumen)
 
